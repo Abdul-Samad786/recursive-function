@@ -10,3 +10,17 @@ int main(){
   fun1(3);
   return 0;
 }
+//isi k olt output ka lia ya ho ga
+#include <iostream>
+using namespace std;
+void fun1(int c){
+  if (c>0){
+    
+    fun1(c-1);
+    cout<<c<<endl;
+  }
+}
+int main(){
+  fun1(3);
+  return 0;
+}
