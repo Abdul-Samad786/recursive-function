@@ -1,0 +1,15 @@
+ #include <iostream>
+ using namespace std;
+int fac(int n){
+  int f=1;
+  int i;
+  for(int i=1;i<=n;i++){
+    f=f*i;
+  }
+   return f;
+}
+int main(){
+  int r=fac(5);
+  cout<<r<<endl;
+  return 0;
+}
