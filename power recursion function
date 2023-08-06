@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int power(int n,int m){
+  if (m==0){
+    return 1;
+  }
+  else{
+    return power(n,m-1)*n;
+  }
+  return 0;
+}
+int main() {
+ int p=power(4,3);
+cout<<p<<endl;
+  return 0;
+}
